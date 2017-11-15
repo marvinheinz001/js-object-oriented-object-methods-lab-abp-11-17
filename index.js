@@ -4,13 +4,13 @@ function BoardMember(name, homeState, training){
   this.training = training
   this.veto = function(){
     // stuff to do for veto
-    return `No I must disagree`
+    return `No, I must disagree`
   }
   this.approve = function(){
     return `You can do that!`
   }
   this.doChartiy = function(){
-    return `I like to help people`
+    return `I like to help people.`
   }
   this.releasePressStatement = function(){
     return `You will see great things from Scuber`
